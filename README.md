@@ -1,5 +1,5 @@
 # Ex. No: 5 Inter-VLAN Routing Using Router-on-a-Stick
-# Date:
+# Date:18/11/2026
 ________________________________________
 # Objective
 To configure Inter-VLAN routing using a single router interface with subinterfaces (Router-on-a-Stick) so that hosts in different VLANs can communicate with each other.
@@ -17,7 +17,8 @@ ________________________________________
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1600" height="945" alt="WhatsApp Image 2026-11-18 at 6 08 15 PM 3" src="https://github.com/user-attachments/assets/0d56c116-9688-4424-a7cf-4e6dd335b705" />
+<br>
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
@@ -91,6 +92,12 @@ ________________________________________
 •	PC IP settings<br>
 •	Successful ping between PCs in different VLANs after routing<br>
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1600" height="899" alt="WhatsApp Image 2026-11-18 at 6 08 15 PM" src="https://github.com/user-attachments/assets/31214eec-afaa-44f9-a207-5064520cfd89" />
+<img width="1600" height="852" alt="WhatsApp Image 2026-11-18 at 6 08 14 PM" src="https://github.com/user-attachments/assets/518b5222-3a78-49e8-8969-1ce7f2ca9023" />
+<img width="1600" height="902" alt="WhatsApp Image 2026-11-18 at 6 08 16 PM" src="https://github.com/user-attachments/assets/08607ec9-99a5-4a1d-9262-cd307c70e8c0" />
+<img width="1600" height="896" alt="WhatsApp Image 2026-11-18 at 6 08 13 PM" src="https://github.com/user-attachments/assets/afa1410a-c5f6-44ef-bc4b-6c8f028ac946" />
+<img width="1600" height="852" alt="WhatsApp Image 2026-11-18 at 6 08 14 PM 2" src="https://github.com/user-attachments/assets/2addc32f-e466-47f4-a3bc-8d24b8b01ab0" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
